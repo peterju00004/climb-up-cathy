@@ -9,6 +9,10 @@
     -webkit-user-select: none;
     font-family: $font-geist-mono;
 
+    &.disabled {
+        opacity: 0.3;
+    }
+
     .blocks {
         display: flex;
         gap: 8px;
