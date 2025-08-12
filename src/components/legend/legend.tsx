@@ -1,4 +1,5 @@
 import React from 'react';
+import { getSlot } from '../../utils/slots';
 import styles from './legend.module.scss';
 
 export type LegendProps = {
@@ -10,13 +11,7 @@ export type LegendProps = {
 }
 
 export function Legend({ label, disabled, type, withBackground, children }: LegendProps) {
-    function getSlot(name: string): React.ReactNode[] {
-        return React.Children.toArray(children).filter(child => {
-            return React.isValidElement(child) && (child.props as { slot: string }).slot === name;
-        })
-    }
-
-    const blocks: React.ReactNode[] = getSlot('block');
+    const blocks: React.ReactNode[] = getSlot(children, 'block');
 
     return (
         <div className={`${styles.legend} ${disabled ? styles.disabled : ''}`}>
