@@ -8,7 +8,7 @@ export type LegendProps = {
     type?: 'normal' | 'large' | 'long';
     withBackground?: boolean;
     children: React.ReactNode;
-}
+};
 
 export function Legend({ label, disabled, type, withBackground, children }: LegendProps) {
     const blocks: React.ReactNode[] = getSlot(children, 'block');
