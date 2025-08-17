@@ -1,8 +1,13 @@
-:root {
+html {
     font-family: $font-merriweather;
 }
 
 body {
     background-color: $color-cathy-0;
     margin: 0 auto;
+    height: 100vh;
+}
+
+#root {
+    height: 100%;
 }
