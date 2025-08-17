@@ -1,11 +1,11 @@
 .instruction {
     display: flex;
     align-items: center;
-    gap: 60px;
+    gap: 40px;
 
     .grid {
         display: grid;
-        gap: 32px 60px;
+        gap: 24px 40px;
         grid-template-rows: repeat(2, 80px);
         grid-template-columns: repeat(2, 120px);
     }

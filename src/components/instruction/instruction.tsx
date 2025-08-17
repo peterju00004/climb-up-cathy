@@ -42,7 +42,7 @@ export function Instruction(props: InstructionProps) {
                 <Legend label='Interact' withBackground type='long' disabled={!props.interact}>
                     <div slot='block'>
                         <svg width="62" height="9" viewBox="0 0 62 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M1 0V8H61V0" stroke="#F0F0F0" stroke-width="2" />
+                            <path d="M1 0V8H61V0" stroke="#F0F0F0" strokeWidth="2" />
                         </svg>
                     </div>
                 </Legend>
@@ -58,8 +58,8 @@ export function Instruction(props: InstructionProps) {
                             <path d="M30 14V32" stroke="#2F2F2F" />
                             <rect x="29" y="17" width="2" height="8" rx="1" fill="#FFF4E6" />
                             <defs>
-                                <filter id="filter0_d_19_255" x="0" y="0" width="64" height="88" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <filter id="filter0_d_19_255" x="0" y="0" width="64" height="88" filterUnits="userSpaceOnUse" colorInterpolationFilters="sRGB">
+                                    <feFlood floodOpacity="0" result="BackgroundImageFix" />
                                     <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
                                     <feOffset dx="2" dy="2" />
                                     <feGaussianBlur stdDeviation="2" />
