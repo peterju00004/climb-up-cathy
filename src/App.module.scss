@@ -1,5 +1,24 @@
 .app {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    .header {
+        text-align: center;
+    }
+
+    .frame {
+
+    }
+
+    .instructions {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 24px;
+        display: flex;
+        justify-content: center;
+        z-index: 100;
+    }
 }
