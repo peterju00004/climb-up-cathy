@@ -1,0 +1,246 @@
+{
+    "floor04": {
+        "name": "Fourth Floor",
+        "positions": {
+            "ELV": {
+                "name": "Elevator",
+                "directions": [
+                    {
+                        "angle": 0,
+                        "image": "ELV000.webp"
+
+                    },
+                    {
+                        "angle": 90,
+                        "image": "ELV090.webp",
+                        "forward": "STG"
+                    },
+                    {
+                        "angle": 180,
+                        "image": "ELV000.webp",
+                        "interact": "ELEVATOR"
+                    },
+                    {
+                        "angle": 270,
+                        "image": "ELV270.webp",
+                        "forward": "STA"
+                    }
+                ]
+            },
+            "ESP": {
+                "name": "90 Wing",
+                "directions": [
+                    {
+                        "angle": 0,
+                        "image": "ESP000.webp",
+                        "forward": "NEP"
+                    },
+                    {
+                        "angle": 90,
+                        "image": "ESP090.webp"
+                    },
+                    {
+                        "angle": 180,
+                        "image": "ESP180.webp",
+                        "forward": "SEP"
+                    },
+                    {
+                        "angle": 270,
+                        "image": "ESP270.webp",
+                        "forward": "STG"
+                    }
+                ]
+            },
+            "NEP": {
+                "name": "45 Wing",
+                "directions": [
+                    {
+                        "angle": 0,
+                        "image": "NEP000.webp"
+                    },
+                    {
+                        "angle": 90,
+                        "image": "NEP090.webp"
+                    },
+                    {
+                        "angle": 180,
+                        "image": "NEP180.webp",
+                        "forward": "ESP"
+                    },
+                    {
+                        "angle": 270,
+                        "image": "NEP270.webp"
+                    }
+                ]
+            },
+            "NWP": {
+                "name": "325 Wing",
+                "directions": [
+                    {
+                        "angle": 0,
+                        "image": "NWP000.webp"
+                    },
+                    {
+                        "angle": 90,
+                        "image": "NWP090.webp"
+                    },
+                    {
+                        "angle": 180,
+                        "image": "NWP180.webp",
+                        "forward": "WSP"
+                    }
+                ]
+            },
+            "SEP": {
+                "name": "135 Wing",
+                "directions": [
+                    {
+                        "angle": 0,
+                        "image": "SEP000.webp",
+                        "forward": "ESP"
+                    },
+                    {
+                        "angle": 90,
+                        "image": "SEP090.webp"
+                    },
+                    {
+                        "angle": 180,
+                        "image": "SEP180.webp"
+                    },
+                    {
+                        "angle": 270,
+                        "image": "SEP270.webp",
+                        "forward": "STD"
+                    }
+                ]
+            },
+            "STA": {
+                "name": "Stairs A",
+                "directions": [
+                    {
+                        "angle": 0,
+                        "image": "STA000.webp",
+                        "interact": "STAIRSA"
+                    },
+                    {
+                        "angle": 90,
+                        "image": "STA090.webp",
+                        "forward": "ELV"
+                    },
+                    {
+                        "angle": 270,
+                        "image": "STA270.webp",
+                        "forward": "WSP"
+                    }
+                ]
+            },
+            "STC": {
+                "name": "Stairs C",
+                "directions": [
+                    {
+                        "angle": 90,
+                        "image": "STC090.webp",
+                        "forward": "STD"
+                    },
+                    {
+                        "angle": 180,
+                        "image": "STC180.webp",
+                        "interact": "EXIT"
+                    },
+                    {
+                        "angle": 270,
+                        "image": "STC270.webp",
+                        "forward": "SWP"
+                    }
+                ]
+            },
+            "STD": {
+                "name": "Stairs D",
+                "directions": [
+                    {
+                        "angle": 90,
+                        "image": "STD090.webp",
+                        "forward": "SEP"
+                    },
+                    {
+                        "angle": 180,
+                        "image": "STD180.webp",
+                        "interact": "EXIT"
+                    },
+                    {
+                        "angle": 270,
+                        "image": "STD270.webp",
+                        "forward": "STC"
+                    }
+                ]
+            },
+            "STG": {
+                "name": "Stairs G",
+                "directions": [
+                    {
+                        "angle": 0,
+                        "image": "STG000.webp",
+                        "interact": "STAIRSG"
+                    },
+                    {
+                        "angle": 90,
+                        "image": "STG090.webp",
+                        "forward": "ESP"
+                    },
+                    {
+                        "angle": 270,
+                        "image": "STG270.webp",
+                        "forward": "ELV"
+                    }
+                ]
+            },
+            "SWP": {
+                "name": "225 Wing",
+                "directions": [
+                    {
+                        "angle": 0,
+                        "image": "SWP000.webp",
+                        "forward": "WSP"
+                    },
+                    {
+                        "angle": 90,
+                        "image": "SWP090.webp",
+                        "forward": "STC"
+                    },
+                    {
+                        "angle": 180,
+                        "image": "SWP180.webp"
+                    },
+                    {
+                        "angle": 270,
+                        "image": "SWP270.webp"
+                    }
+                ]
+            },
+            "WSP": {
+                "name": "270 Wing",
+                "directions": [
+                    {
+                        "angle": 0,
+                        "image": "WSP000.webp",
+                        "forward": "NWP"
+                    },
+                    {
+                        "angle": 90,
+                        "image": "WSP090.webp",
+                        "forward": "STA"
+                    },
+                    {
+                        "angle": 180,
+                        "image": "WSP180.webp",
+                        "forward": "SWP"
+                    },
+                    {
+                        "angle": 270,
+                        "image": "WSP270.webp"
+                    }
+                ]
+            }
+        }
+    }
+}
